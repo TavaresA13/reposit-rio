@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,300;0,700;1,200&display=swap');
+
+P{
+    font-family: 'Montserrat Alternates', sans-serif;
+    
+}
+#fundo{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.703);
+    position: fixed;
+    z-index: -10;
+    top: 0px;
+}
+#fundo{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    z-index: -1000;
+    top: 0px;
+
+}
+#preto{
+    height: 100vh;
+    width: 100vw;
+    position: fixed;
+    background-color: rgba(0, 0, 0, 0.751);
+    z-index: -10;
+    top: 0px;
+
+}
+
+
+#cabeçario{
+   
+    background-color: rgb(0, 0, 255);
+    width: 100vw;
+    height:70px; 
+    position: fixed;
+    z-index: 10;
+    
+
+}
+#logo{
+    position: absolute;
+    z-index: 3;
+    height: 70px;
+    width: 100px;
+    border-radius: 10px;
+    top: 0px;
+}
+#textos{
+    display: flex;
+    margin-left: 100px;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+div div p{
+    margin-left: 20px;
+    color: white;    
+}
+
+#origem{
+    font-size: 40px;
+    position: absolute;
+    left: 27px;
+    top: 150px;
+    color: aliceblue;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
